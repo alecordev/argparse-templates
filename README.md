@@ -1,2 +1,3 @@
 # argparse-templates
-Python argparse templates and skeletons.
+
+Python argparse and general argument parsing templates and skeletons.

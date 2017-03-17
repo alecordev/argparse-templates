@@ -10,13 +10,16 @@ class AlecorParser(argparse.ArgumentParser):
     """
     Handle special case and show help on invalid argument
     """
+
     def error(self, message):
         sys.stderr.write('\nERROR: {}\n\n'.format(message))
         self.print_help()
         sys.exit(2)
 
+
 def main():
     pass
+
 
 if __name__ == '__main__':
 
@@ -46,4 +49,4 @@ if __name__ == '__main__':
             main()
 
     except Exception as e:
-        raise e
+        print(e)
